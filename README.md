@@ -1,29 +1,17 @@
 <div align="center">
 <img src="https://files.catbox.moe/x7b0e2.png" height="128" width="128" style="border-radius:25%">
-   <h1> Semaphorin 
+   <h1> Sepsemaphorin 
       <br/> 64-Bit Downgrade, Dualboot & Jailbreak Utility
    </h1>
 </div>
 
 <h4 align="center"> Uses seprmvr64 by mineek<h4>
-<h6 align="center"> Supports* iOS 7.0.4-12.1.2 as well as A7-A10 devices </h6>
+<h6 align="center"> Supports iOS 7.0-12.5.7 as well as A7-A10x devices </h6>
 
 # IF YOUR DEVICE SUPPORTS [LEGACY-IOS-KIT](https://github.com/LukeZGD/Legacy-iOS-Kit), YOU SHOULD REALLY USE THAT OVER THIS.
 
 # Chart of device compatibility
-
-| iOS                    | A7 SoC  | A8/A8X SoC | A9/A9X SoC | A10 SoC | A10X SoC | A11 SoC |
-|------------------------|---------|------------|------------|---------|----------|---------|
-| 7.0.4                  | &#9745; | &#9744;    | &#9744;    | &#9744; | &#9744;  | &#9744; |
-| 7.0.6                  | &#9745; | &#9744;    | &#9744;    | &#9744; | &#9744;  | &#9744; |
-| 7.1.2                  | &#9745; | &#9744;    | &#9744;    | &#9744; | &#9744;  | &#9744; |
-| 8.2                    | &#9745; | &#9745;    | &#9744;    | &#9744; | &#9744;  | &#9744; |
-| 8.3                    | &#9745; | &#9745;    | &#9744;    | &#9744; | &#9744;  | &#9744; |
-| 9.3.3                  | &#9745; | &#9745;    | &#9744;    | &#9744; | &#9744;  | &#9744; |
-| 10.2.1                 | &#9745; | &#9745;    | &#9745;    | &#9745; | &#9744;  | &#9744; |
-| 10.3.3                 | &#9745; | &#9745;    | &#9745;    | &#9745; | &#9744;  | &#9744; |
-| 11.1                   | &#9745; | &#9745;    | &#9745;    | &#9745; | &#9744;  | &#9744; |
-| 12.1.2                 | &#9745; | &#9745;    | &#9745;    | &#9745; | &#9744;  | &#9744; |
+all versions 7.0-12.5.7 are supported a7-a10x
 
 
 # Chart of feature compatibility
@@ -33,16 +21,15 @@
 | 7.0.4**     | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9744;  | &#9745;  | &#9745;    | &#9745;|
 | 7.0.6**     | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9744;  | &#9745;  | &#9745;    | &#9745;|
 | 7.1.2**     | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
-| 8.2**       | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9744; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
-| 8.3**       | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9744; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
-| 9.3.3**     | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9744;    | &#9744;|
-| 10.2.1**    | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9744;    | &#9744;|
-| 10.3.3      | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9744;    | &#9744;|
-| 11.1        | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9744;    | &#9744;|
-| 12.1.2      | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9744;    | &#9744;|
+| 8.2**       | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
+| 8.3**       | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
+| 9.3.3**     | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
+| 10.2.1**    | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
+| 10.3.3**    | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
+| 11.1        | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
+| 12.1.2      | &#9745;   | &#9745;      | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;  | &#9745;    | &#9745;|
 
-** These versions can only be tether booted with semaphorin, dualboot is only supported when downgrading to iOS 10.3.3 or later. You will lose all your data on your device if you downgrade to any of these versions, please keep that in mind before using this tool.
-
+**recomed versions
 ## How do I use this?
 
 This script deletes everything on your phone, including the main OS if you are not downgrading to iOS 10.3.3 or later. Make sure to backup all of your data before using this script as **anything on the device prior to running this script will be UNRECOVERABLE afterwards**. Use this script at your own risk. We are not responsible for any damages caused by you using this script.
@@ -65,7 +52,7 @@ When the script asks `[*] Please enter the iOS version that is currently install
 
 It should then begin the process of downgrading your device. Please follow the on screen instructions. This might take a while. Your device will reboot multiple times.
 
-If you downgraded to iOS 10 or later, please use the jailbreak app on your home screen to begin jailbreaking your device.
+If you downgraded to iOS 9 or later, please use the jailbreak app on your home screen to begin jailbreaking your device.
 
 ## Subsequent runs after downgrade is finished
 
@@ -79,11 +66,7 @@ It should just boot to your requested iOS version normally.
 
 ## Requirements
 
-macOS Catalina or later. The script only officially supports these versions.
-
-Java 8 https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u262-b10/openlogic-openjdk-8u262-b10-mac-x64.pkg
-
-Intel Mac. Hackintoshes with AMD CPUs will **NOT** work with this.
+linux or mac
 
 Stable internet connection. Please don't try using this with dial up...
 
@@ -102,51 +85,19 @@ If, for whatever reason, that invite link does not work, please contact [wilm271
 The Discord server is strictly for Semaphorin support only. Please don't bring personal issues into our server.
 
 ## Setup.app bypass
-
-We will not be providing any support for any method of deleting `/Applications/Setup.app` with our script.
-
-This is only to comply with [r/jailbreak](https://www.reddit.com/r/jailbreak/) and [r/LegacyJailbreak](https://www.reddit.com/r/LegacyJailbreak/) rules and guidelines.
-
-The script will downgrade your iOS version and jailbreak the downgraded OS very easily, but will not allow for bypassing **any** sort of Activation Lock.
-
-We back up the `activation_records` from your main OS prior to downgrading your device, so please make sure your main OS is activated before using this tool.
+this willdelete setup.app to bypass actvation
 
 ## Troubleshooting
 
-   ### Deep sleep, device won't turn on after locking it, have to reboot.
-   The issue that causes deep sleep is unfortunately **unfixable**. There is, however, a workaround to this:
-      
-      1. Add [this repo](julioverne.github.io) to Cydia after setup
-      
-      2. Search for the tweak Fiona
-      
-      3. Install it
-      
-      4. Profit
-      
-   *Note: This does slightly affect battery life due to the way it works. You probably aren't using this script for battery life though, are you.
+   The script only officially works on macOS 10.15 or later and linux due to some limitations on the developer's end. You have to install one of those versions to use the script. Please do not ask us about this.
 
-   ### Unsupported OS
-   The script only officially works on macOS 10.15 or later due to some limitations on the developer's end. You have to install one of those versions to use the script. Please do not ask us about this.
-
-Linux and Windows support is not planned either, do not ask about this either.
-
-   ### Unable to connect to WiFi networks, incorrect password.
-   This is caused by an issue that's *impossible* to fix. You need to connect to an open WiFi network
-
-   You can create one using the Internet Sharing feature on macOS or [linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot) on, you guessed it, Linux if you prefer using another computer for this. 
-
-   Be careful when doing this since *anyone* can connect to the open network you created. We are not responsible for **any** damages caused by doing this.
+Windows support is not planned either, do not ask about this either.
 
    ### Cydia is absent (on iPads)
    iPads have uicache issues with most jailbreaking tools. To open Cydia, enter `cydia://` in Safari's address bar and press Enter.  
 
    ### wtfis.app is absent (on iPads)
    iPads have uicache issues with most jailbreaking tools. To open wtfis, enter `wtfis://` in Safari's address bar and press Enter.  
-
-   ### Safari and others apps not opening (iOS 7)
-   Uninstall Cydia Substrate from within Cydia, and then reboot your device using semaphorin. When the device boots back up, reinstall your tweaks, but when Cydia asks you to "restart springboard" do not hit that button! Hit the home button on your device instead, and open Safari and type `wtfis://` in Safari's address bar and press Enter. Hit "go" inside the wtfis app. This will properly respring your device. All the apps on your device should now be working properly if you follow these steps.
- 
 ## Credits
 
 - [PsychoTea](https://github.com/PsychoTea/) for [MeridianJB](https://github.com/PsychoTea/MeridianJB/) which we use for iOS 10.3.3 downgrades
