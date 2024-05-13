@@ -20,30 +20,15 @@ arg_count=0
 
 if [[ $os =~ Darwin ]]; then
         echo "[*] Running on Darwin..."
-elif [[ $os =~ Linux ]]; then
-        echo "[!] This tool does not support Linux. Please use this with macOS 10.15 (Catalina) to continue."
-        exit 1
-else
-        echo "[!] What operating system are you even using..."
-        exit 1
-fi
-
-
-if [[ $os_ver =~ ^10\.1[3-4]\.* ]]; then
-        echo "[!] Semaphorin no longer supports macOS $os_ver. Please update to macOS 10.15 (Catalina) or later to continue."
-	exit 1
-elif [[ $os_ver == 10.15.* ]] || (( $maj_ver >= 11 )); then
-	echo "[*] You are running macOS $os_ver. Continuing..."
 else    
-        echo "[!] macOS/OS X $os_ver is not supported by this script. Please install macOS 10.15 (Catalina) or later to continue if possible." 
-        read -p "[*] You can press the enter key on your keyboard to skip this warning  " r1
+        read -p "[*] press the enter key on your keyboard " r1
 fi
 
 
 print_help() {
     cat << EOF
 Usage: $0 [VERSION...] [OPTION...]
-iOS 7.0.1-9.2.1 Downgrade & Jailbreak tool for older checkm8 devices using seprmvr64
+iOS 7.0.-12.5.7 Downgrade & Jailbreak tool for older checkm8 devices using seprmvr64
 Examples:
     $0 7.1.2 --restore
     $0 7.1.2 --boot
